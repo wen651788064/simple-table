@@ -1,0 +1,111 @@
+.wf-table {
+    width: 100%;
+    word-break: break-all;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    border-color: transparent;
+    table-layout: fixed;
+}
+
+.wf-table tr {
+    background-color: #EFEFEF;
+}
+
+.wf-table td,
+.wf-table th {
+    color: #333333;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 8px 10px;
+}
+
+.wf-table thead th {
+    background: #7B92AA;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 39px;
+    white-space: nowrap;
+    border-bottom: 2px solid white;
+}
+
+.wf-table thead th:first-of-type {
+    border-radius: 5px 0 0 5px;
+    width: 100px;
+    word-break: break-all;
+}
+
+.wf-table thead th:last-of-type {
+    border-radius: 0 5px 5px 0;
+}
+
+.wf-table tbody td {
+    line-height: 26px;
+}
+
+.wf-table tbody tr td:last-of-type {
+    border-radius: 0 5px 5px 0;
+    word-break: break-all;
+}
+
+.wf-table tbody tr td:first-of-type {
+    width: 100px;
+    word-break: break-all;
+}
+
+.wf-table tfoot tr td:first-of-type {
+    width: 100px;
+}
+
+.wf-table .first-total-column-title {
+    border-radius: 5px 0 0 5px;
+}
+
+.wf-table tfoot tr td:last-of-type {
+    border-radius: 0 5px 5px 0;
+}
+
+.wf-table .column-title,
+.wf-table .first-column-title,
+.wf-table tbody td.subtotal-column-title,
+.wf-table tfoot td.total-column-title,
+.wf-table td.first-subtotal-column-title,
+.wf-table tfoot td.first-total-column-title {
+    border-right: 2px solid #ffffff;
+    background: #8BA6C2;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.wf-table .first-column-title,
+.wf-table td.first-subtotal-column-title,
+.wf-table tfoot td.first-total-column-title {
+    border-radius: 5px 0 0 5px;
+}
+
+.wf-table tfoot td {
+    background: #8BA6C2;
+    font-weight: bold;
+    line-height: 36px;
+    white-space: nowrap;
+}
+
+.wf-table td.subtotal {
+    background: #E0E9F3;
+    color: #333333;
+    font-weight: bold;
+}
+
+.wf-table tfoot td.total {
+    color: #333333;
+    background: #E0E9F3;
+}
+
+.wf-table .sub-title {
+    font-size: 12px;
+    font-family: PingFang SC, PingFang SC-Regular;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    line-height: 20px;
+}
